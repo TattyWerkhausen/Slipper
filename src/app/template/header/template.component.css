@@ -1,0 +1,29 @@
+.menu{
+display:flex;
+width: 100%;
+position: fixed;
+}
+.logo{
+  display: block;
+  width: 5%;
+  position: relative;
+  margin-left: 15px;
+}
+.nome-site h1{
+  font-size: 23px;
+  margin-left: 15px;
+  font-weight: 400;
+  color: rgb(71, 6, 6) ;
+}
+.nome-site h1:hover{
+  box-shadow: 5px 3px 5px rgb(71, 6, 6);
+  border-radius: 2px;
+  background: transparent;
+}
+.lista-menu li{
+  padding-left: 75px;
+}
+.pesquisa{
+  margin-left: 75px;
+  display: flex;
+}

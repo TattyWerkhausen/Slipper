@@ -1,0 +1,53 @@
+<nav class="menu navbar navbar-expand-lg navbar-light bg-light">
+
+    <img class="logo" src="/assets/img/380257-icone-de-de-chinelos-grátis-vetor.jpg">
+    <a  [routerLink]="['/fotos']"  class="nome-site navbar-brand" href="#">
+    <h1>Minha Praia Chinelos</h1></a>
+
+
+  <div class="lista-menu collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item">
+        <a [routerLink]='["quem-somos"]' class="nav-link" href="#">Quem somos
+          <span class="sr-only"></span></a>
+      </li>
+
+      <li class="nav-item">
+        <a [routerLink]='["produtos"]' class="nav-link" href="#">Produtos</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contato</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Fotos
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a [routerLink]='["fotos"]' class="dropdown-item" href="#">Bebidas</a>
+          <ul>
+            <li><img src="/assets/img/380257-icone-de-de-chinelos-grátis-vetor.jpg"> </li>
+            <li><img src="/assets/img/380257-icone-de-de-chinelos-grátis-vetor.jpg"> </li>
+            <li><img src="/assets/img/380257-icone-de-de-chinelos-grátis-vetor.jpg"> </li>
+          </ul>
+          <a [routerLink]='["bebida"]' class="dropdown-item" href="#">Bebidas</a>
+          <a [routerLink]='["sabor"]' class="dropdown-item" href="#">Sabor</a>
+          <a [routerLink]='["acrescento"]' class="dropdown-item" href="#">Acrescentos</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>-->
+    </ul>
+    <form class="pesquisa form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar..." aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search" aria-hidden="true"></i></button>
+    </form>
+  </div>
+</nav>
+
